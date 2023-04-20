@@ -111,14 +111,16 @@ body {
 }
 #footer-text hr {
     margin-left: 0px;
-    width: 670px;
+    width: 92%;
     color: white;
     background-color: white;
+    margin-top: 5px;
     height: 3px;
 }
 #footer-text {
     margin-top: 50px;
     margin-left: 100px;
+    width: 40%;
 }
 #footer-text > h4, p {
     margin-top: 50px;
@@ -132,7 +134,7 @@ body {
 #footer-text > p {
     font-size: 30px;
     font-weight: lighter;
-    width: 50%;
+    width: 70%;
 }
 .white-text {
     color: white;
