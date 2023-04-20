@@ -83,7 +83,7 @@ body {
 .information > div {
     flex-direction: column;
     display: flex;
-    width: 20%;
+    width: 30%;
 }
 .information > div > img {
     width: 40%;
