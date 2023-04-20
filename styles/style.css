@@ -6,3 +6,92 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigation bar*/
+.nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 15px 0;
+    background-color: white;
+    width: 100%;
+}
+.nav ul {
+    display: flex;
+}
+.nav ul li {
+    margin-right: 40px;
+    list-style: none;
+}
+.nav img {
+    width: 180px;
+    margin-left: 40px;
+}
+
+
+/*Main image with text*/
+.landing-section {
+    display: flex;
+}
+.landing-section img {
+    width: 100%;
+}
+.landing-section h4 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 30%;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.landing-section h1 {
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 20%;
+    font-size: 100px;
+    font-weight: lighter;
+}
+
+/*first section - "What's on Spotify"*/
+.section-one h2 {
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.section-one hr {
+    color: #00B172;
+    width: 220px;
+    margin-top: 0px;
+}
+.information {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 50px auto 50px auto;
+}
+.information div {
+    flex-direction: column;
+    display: flex;
+    width: 20%;
+}
+.information div img {
+    width: 40%;
+    margin: auto;
+}
+.information div h3, p {
+    text-align: center;
+}
+.information div h3 {
+    color: #00B172;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
